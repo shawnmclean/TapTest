@@ -11,6 +11,7 @@ namespace Test
   {
     static void Main(string[] args)
     {
+      Console.WriteLine("TAP version 13");
       TAP.Ok(true, "hello");
       TAP.Fail("ouch");
       TAP.Ok(false);
